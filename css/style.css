@@ -26,6 +26,7 @@
 	-webkit-transform: scale(1.02);
 	transform: scale(1.02);
 	transition: all 1s;
+    box-shadow: 0px 20px 30px 10px rgb(0 0 0 / 10%);
 }
 
 .h2{
@@ -60,7 +61,7 @@ header{
     position: relative;
     /*border: solid red;*/
     height: 85vh;
-    background-image: url('imagens/comunicado.jpg');
+    background-image: url('../imagens/comunicado.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -105,9 +106,9 @@ p{
     left: -80px;
     top: 0px;
     bottom: auto;
-    border: 20px solid #fff;
+    /*border: 20px solid #fff;*/
     box-shadow: 0px 20px 30px 10px rgb(0 0 0 / 10%);
-    padding-left: 10px;
+    padding-left: 0px;
 }
 
 #img-02{
@@ -199,13 +200,15 @@ p{
     /*border: solid red;*/
     width: 100%;
     height: 80vh;   
+    overflow-y: hidden;
 }
 
 #centralizar-foto{
+   
     border: 20px solid #fff;
     bottom: -220px;
     height: 420px;
-    width: 80%;
+    width: 70%;
     background-position: center bottom;
     background-size: cover;
     overflow: hidden;
@@ -251,6 +254,7 @@ p{
     margin-bottom: 0;
     overflow-y: hidden;
     z-index: -1;
+    
 }
 
 .bloco-foto img{
@@ -259,6 +263,11 @@ p{
     transform: scale(1.2);
     
 }
+
+.bloco-foto img:hover{
+    
+}
+
 #texto-nupicias{
     /*border: solid;*/
     width: 100%;  
@@ -521,7 +530,7 @@ footer button img{
     background-position: center;
     display: flex;
     justify-content: space-between;
-    color: #51483B;
+    fill: #51483B;
     margin-top: 5px;
     
 }
@@ -546,3 +555,7 @@ footer img:hover{
     transition: .4s ease-out;
     transition: .4s ease-out;
 }
+
+
+
+
